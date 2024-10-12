@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-item.active{
+border-radius: 40px;
+border:solid blue 1px ;
+}
+ .navbar-collapse a{
+    color: white;
+ }
+ .adam:hover .nav-link{
+    border: solid 1px blue;
+    border-radius: 30px;
+  }
+.Weather{
+
+    background-image: linear-gradient(  transparent 60%, rgb(44 48 61) 40% ),url(../images/banner.png);
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+}
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+    padding-top: 30px;
+  }
+  .find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+  }
+  .find-location input[type="submit"],.find-location input[type="button"] {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+  }
+
+.herder{
+background-color: rgb(44 48 61);
+color: white;
+}
+.col-body{
+background-color: #252936;
+}
+.row{
+  /* border: solid 1px blue; */
+  border-radius: 90px;
+}
+#place-name{
+  font-size: 30px;
+  font-weight: 600;
+}
+#temperature{
+  font-size: 90px;
+  font-weight: 600;
+}
+
+
+sub{
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+
+}
+sup {
+  top: -2rem;
+}
+
+sub {
+  bottom: 1.8rem;
+}
+.social-links{
+  font-size: 30px;
+}
+
+.social-links i{
+  padding: 10px;
+  /* margin-left: 10px; */
+  border-radius: 50%;
+  border: solid 1px black;
+  background-color: black;
+}
+.custom-placeholder::placeholder {
+  color: lightgray;
+}

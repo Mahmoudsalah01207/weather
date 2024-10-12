@@ -1,0 +1,161 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <div class="bg-dark">
+    <div class="container px-2">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class=" pt-3 ms-5 mt-2">
+          <a class="navbar-brand d-flex" href="#">
+            <img src="https://routeweather.netlify.app/images/logo.png " alt="Logo" width="50%" height="40"
+              class="d-inline-block align-text-top ms-3">
+            <div class="ms-2 ">
+              <h1 class="fs-6 text-white">Weather</h1>
+              <p class="fs-6  text-white">tagline goes here</p>
+              <h3 class=""> </h3>
+            </div>
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item active">
+              <a class="nav-link px-4" href="#">Home</a>
+            </li>
+            <li class="nav-item adam px-2">
+              <a class="nav-link px-4 " href="#">News</a>
+            </li>
+            <li class="nav-item adam px-2">
+              <a class="nav-link px-4 " href="#">Live</a>
+            </li>
+            <li class="nav-item adam px-2">
+              <a class="nav-link px-4 " href="#">cameras</a>
+            </li>
+            <li class="nav-item adam px-2">
+              <a class="nav-link px-3 " href="#">Photos</a>
+            </li>
+            <li class="nav-item adam px-2">
+              <a class="nav-link px-3 " href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <section class="Weather">
+    <div class="container px-3 py-5 ">
+      <form class="find-location " id="search-form">
+        <input type="text" class="form-control  border-black" id="place-input" placeholder="Enter place" value="London">
+        <input type="submit" class="btn btn-primary"></type=>
+      </form>
+
+      <div class="row mb-5">
+        <div class="col-md-4 col-body">
+          <div class="row justify-content-between herder p-2 rounded-0">
+            <div class="col-md-5">
+              <p class="card-text"> <span id="date1"></span></p>
+            </div>
+            <div class="col-md-4">
+              <p class="card-text"> <span id="date2"></span></p>
+            </div>
+          </div>
+          <div class="w-100 pt-3">
+            <p class=" text-secondary"> <span id="place-name"></span></p>
+          </div>
+          <div class="d-flex gap-5 pt-2 align-items-center">
+            <div class="w-50  " id="temperature">
+              <sup>o C</sup>
+            </div>
+            <div class="w-50 ">
+              <img src="" alt="Weather Icon" id="icon" width="100">
+
+            </div>
+          </div>
+
+          <p class="card-text"> <span id="condition"></span></p>
+          <div class="pb-5">
+            <span><img src="https://routeweather.netlify.app/images/icon-umberella.png" alt=""> 20%</span>
+          <span><img src="https://routeweather.netlify.app/images/icon-wind.png" alt=""> 18km/h</span>
+          <span><img src="https://routeweather.netlify.app/images/icon-compass.png" alt=""> East</span>
+          </div>
+          
+        </div>
+
+        <div class="col-md-4 bg-dark text-center pb-5 " id="aaa">
+
+          <div class="row">
+            <div class="col-md-12 herder p-2" id="day2">
+              Saturday
+            </div>
+            <div class="col-md-12 pt-5">
+              <img src="images/113.png" alt="" width="50" id="icon2">
+            </div>
+            <div class="col-md-12 fs-4 fw-bold pt-2" id="max-temperature">42<sup>o</sup>C
+            </div>
+            <small class="fs-5 text-secondary" id="min-temperature">24.9<sup>o</sup></small>
+            <h6 class="pt-4" id="condition2">sunny</h6>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-body text-center pb-5 " id="aaa">
+
+          <div class="row">
+            <div class="col-md-12 herder p-2 " id="day3">
+              Saturday
+            </div>
+            <div class="col-md-12 pt-5">
+              <img src="images/113.png" alt="" width="50" id="icon3">
+            </div>
+            <div class="col-md-12 fs-4 fw-bold pt-2" id="max-temperature2">42<sup>o</sup>C
+            </div>
+            <small class="fs-5 text-secondary" id="min-temperature2">24.9<sup>o</sup></small>
+            <h6 class="pt-4" id="condition3">sunny</h6>
+          </div>
+
+        </div>
+      </div>
+  </section>
+  <section class="pb-3 bg-dark">
+    <footer class="site-footer bg-dark ms-3 ">
+      <div class="container ">
+        <div class="row bg-dark d-flex">
+          <div class="col-md-8  pt-2 ">
+            <form class="find-location  ">
+              <input type="text" class="form-control border-black text-white custom-placeholder" placeholder="Enter your email to subscribe...">
+              <input type="submit" class="border-primary" value="Subscribe">
+            </form>
+          </div>
+          <div class="col-md-3 pt-5 ">
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+  
+        <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
